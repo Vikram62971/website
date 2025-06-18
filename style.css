@@ -1,0 +1,12 @@
+.circle-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  transition: transform 0.3s;
+}
+
+.circle-img:hover {
+  transform: scale(1.05);
+}
